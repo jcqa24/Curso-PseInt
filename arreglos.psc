@@ -1,17 +1,19 @@
 Proceso Arreglos
-	Definir D Como Entero;
-	
-	Dimension  D[100];
+	Definir A Como Entero;
 	
 	Definir i Como Entero;
 	
-	Para i <- 0 Hasta 99 Con Paso 1 Hacer
-		D[i] <- i+1;
-	FinPara
-	
+	Dimension A[100];
 	
 	Para i <- 0 Hasta 99 Con Paso 1 Hacer
-		Escribir D[i];
+		A[i] <- Azar(10);
 	FinPara
+	
+	Para i <- 0 Hasta 99 Con Paso 1 Hacer
+		Escribir A[i] ;
+	FinPara
+	
+
+	
 	
 FinProceso
